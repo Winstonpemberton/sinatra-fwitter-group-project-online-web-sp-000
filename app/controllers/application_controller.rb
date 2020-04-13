@@ -6,6 +6,4 @@ class ApplicationController < Sinatra::Base
     set :public_folder, 'public'
     set :views, 'app/views'
   end
-  binding.pry
-
 end
